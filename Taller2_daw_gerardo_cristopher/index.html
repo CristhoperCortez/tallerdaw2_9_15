@@ -14,12 +14,16 @@
 </head>
 <body>
    <h1>Pollo Don Bosco</h1>
-   <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
-    <option selected>Seleccione el combo de su preferencia</option>
-    <option value="1">Super combo</option>
-    <option value="2">Combo personal</option>
-    <option value="3">Combo infantil</option>
-  </select>
+    <div class="menu-combo">
+        <p>Seleccione el combo de su preferencia uwu</p>
+        <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+        <option value="combo-1" selected>Super combo $7.25</option>
+        <option value="combo-2">Combo personal $5.75</option>
+        <option value="combo-3">Combo infantil $3.50</option>
+      </select>
+    </div>
+
+  <div class="menu-opciones">
   <table class="table table-striped">
     <tr>
         <th>Opción</th> <th>Producto adicional</th> <th>Precio</th> <th> Cantidad</th> <th>Añadir al carrito</th>
@@ -65,5 +69,7 @@
         </td>
     </tr>
 </table>
+</div>
 </body>
+<script src="js/script.js"></script>
 </html>
