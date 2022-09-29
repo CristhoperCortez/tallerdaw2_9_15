@@ -14,3 +14,18 @@ pedido.bmedia = 1.25;
 pedido.bpequeña = 1;
 pedido.cafe = 0.50;
 pedido.postre = 1.25;
+
+pedido.totalEnsalada = 0;
+pedido.totalPapas = 0;
+pedido.totalPgrande = 0;
+pedido.totalPmedia = 0;
+pedido.totalPpequeña = 0;
+pedido.totalBgrande = 0;
+pedido.totalBmedia = 0;
+pedido.totalBpequeña = 0;
+pedido.totalCafe = 0;
+pedido.totalPostre = 0;
+
+pedido.totalCombo = 0;
+pedido.totalProducto = 0;
+pedido.totalFinal = 0;
